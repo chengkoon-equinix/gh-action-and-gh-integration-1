@@ -1,6 +1,9 @@
 it('works', () => {
   expect(2 + 3).to.equal(5)
-  expect(3 + 3).to.equal(6)
-  expect(4 + 3).to.equal(8)
-  expect(4 + 3).to.equal(9)
+})
+it('will fail', () => {
+  expect(3 + 4).to.equal(6)
+})
+it('will pass', () => {
+  expect(5 + 6).to.equal(11)
 })
